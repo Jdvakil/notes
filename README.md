@@ -11,4 +11,16 @@
     + A decision tree model 
         * The shape of the tree
         * The condition and leaves
-- 
+> Example: Create an app to predict the rainfall
+
+-> Physics approach: Create physics based representation of the earth's atmosphere and surface. Computing massive ammount of fluid dynamics equations. 
+
+-> ML approach: Give a ML model enormous ammount of weather data until the data learns the mathematical relationship between weather patterns that produce different ammounts of rain. Then give current weather data and predict rain. 
+
+### Types of ML systems
+
++ Supervised learning 
+    - Training a model from features and their corresponding labels. Supervised ML is analogous to learning a subject by studying a set of questions and their answers. Master mapping between Q/A and provide answers to never-before-seen questions on the same topic. 
+    - Models make prediction after going thru alot of data with correct answers. Then discover the connections b/w the elements in the data that produce the same answer. 
++ Unsupervised learning 
++ Reinforcement learning
