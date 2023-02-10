@@ -23,23 +23,28 @@ print(rank_3_tensor)
 np_arr = np.array(rank_1_tensor) #convert tensor to numpy arrays
 print(np_arr)
 
-np_arr_2 = rank_2_tensor.numpy()
+np_arr_2 = rank_2_tensor.numpy() #use tensor to convert to numpy 
 print(np_arr_2)
 
-tf_ones = tf.ones([2,2])
+np_1_arr = np.array([1,2,3])
+np_to_tf = tf.convert_to_tensor(np_1_arr)
+
+print(f"Before: {type(np_1_arr)}, After: {type(np_to_tf)}")
+
+tf_ones = tf.ones([2,2]) #tensor for ones
 print(tf_ones)
 
-tf_add = tf.add(rank_2_tensor, tf_ones)
+tf_add = tf.add(rank_2_tensor, tf_ones) #add two tensors
 print(tf_add)
 
-print(tf.reduce_max(tf_add))
+print(tf.reduce_max(tf_add)) #get the max value 
 
-print(tf.math.argmax(tf_add))
+print(tf.math.argmax(tf_add)) #get index of the max value
 
 print(tf.nn.softmax(tf_add))
 
 
-rank_4_tensor = tf.zeros([3, 2, 4, 5])
+rank_4_tensor = tf.zeros([3, 2, 4, 5]) #Tensor for all zeroes
 
 print("Type of every element:", rank_4_tensor.dtype)
 print("Number of axes:", rank_4_tensor.ndim)
