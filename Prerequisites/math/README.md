@@ -10,7 +10,7 @@
 
 - Gradients take the partial derivative of a function WRT each dimension. 
 
-![Gradient vector!](gradient.jpg "Gradient vector")
-![Example!](example_gradient.jpg "example")
+![Gradient vector!](gradient.jpeg "Gradient vector")
+![Example!](example_gradient.jpeg "example")
 
 > A gradient is the direction of the steepest ascent
