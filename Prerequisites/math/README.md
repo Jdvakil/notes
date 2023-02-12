@@ -25,4 +25,4 @@
 
 Each node has a input `x`, an activation function `f(x)` and an output `y = f(x)`. `f(x)` has to be non-linear for the neural network to learn non-linear models. 
 
-$\frac{n!}{k!(n-k)!}$
+An example of an activation function: $\frac{1}{1 + e^-x}$
