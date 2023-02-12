@@ -19,4 +19,4 @@
 
 > Essential for learning + training large neural networks. 
 
-- A simple neural network has one input and one output node and hidden layers of multiple nodes. The nodes are connected with weights `w`<sub>ij</sub>
+- A simple neural network has one input and one output node and hidden layers of multiple nodes. The nodes are connected with weights w<sub>ij</sub>
