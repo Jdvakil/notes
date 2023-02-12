@@ -40,7 +40,7 @@
 
 - After updating the input node, we move to the first layer. We take the output *y* of the previous node and use the weight to compute the input *x* of the next node.
 
-> `x`<sub>`next`</sub>  = `w`<sub>`prev`</sub> * `y`<sub> `prev`</sub> + `b`<sub>`next`</sub>
+> x<sub>next</sub>  = w<sub>prev</sub> * y<sub> prev</sub> + b<sub>next</sub>
 > 
 > `y = f(x)` 
 >
