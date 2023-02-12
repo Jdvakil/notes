@@ -19,4 +19,10 @@
 
 > Essential for learning + training large neural networks. 
 
-- A simple neural network has one input and one output node and hidden layers of multiple nodes. The nodes are connected with weights <em> w<sub>ij</sub> </em>
+- A simple neural network has one input and one output node and hidden layers of multiple nodes. The nodes are connected with weights <em> w<sub>ij</sub> </em>, these weights are the network parameters. 
+
+### Activation function
+
+Each node has a input `x`, an activation function `f(x)` and an output `y = f(x)`. `f(x)` has to be non-linear for the neural network to learn non-linear models. 
+
+$\frac{n!}{k!(n-k)!}$
