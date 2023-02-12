@@ -14,3 +14,9 @@
 
 ![Gradient vector!](gradient.jpeg "Gradient vector")
 ![Example!](example_gradient.jpeg "example")
+
+## Back-propagation algorithm
+
+> Essential for learning + training large neural networks. 
+
+- A simple neural network has one input and one output node and hidden layers of multiple nodes. The nodes are connected with weights `w <sub>ij<\sub>`
