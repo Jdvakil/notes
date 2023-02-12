@@ -40,10 +40,27 @@
 
 - After updating the input node, we move to the first layer. We take the output *y* of the previous node and use the weight to compute the input *x* of the next node.
 
-> x<sub>next</sub>  = w<sub>prev</sub> * y<sub> prev</sub> + b<sub>next</sub>
+> `x`<sub>`next`</sub>  = `w`<sub>`prev`</sub> * `y`<sub> `prev`</sub> + `b`<sub>`next`</sub>
 > 
 > `y = f(x)` 
 >
 
 - Using the two formulas above, we propagate for the rest of the network and get the final output. 
+
+### Error derivative
+
+- The backpropagation algorithm decides how much to update each weight of the network after comparing the predicted output with the desired output. 
+
+- To compute how the error changes WRT each weight: $\frac{dE}{dw}$
+
+> *w<sub>ij</sub> = w<sub>ij</sub> - $\alpha$ $\frac{dE}{dw}$*
+>
+> $\alpha$ is a positive constant which is the learning rate which needs to be fine-tuned empirically.
+
+### Back propagation 
+
+- If we have the predicted output of this particular input example, we can compute how the error changes with the output. 
+
+
+
 
