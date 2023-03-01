@@ -35,6 +35,6 @@
             - Outputs a value from a class that contains multiple outputs (Blue, Red, Yellow, or Green)       
 
 + Unsupervised learning 
-    -
-
+    - Unsupervised learning models make predictions from datasets with no correct answers. The goal of the models is to identify and predict meaningful patterns.
+    - Unsupervised learning models employ a technique called clustering. 
 + Reinforcement learning
