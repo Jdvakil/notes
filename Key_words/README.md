@@ -9,3 +9,8 @@
 - Supervised learning: A model that takes a dataset with correct answers as an input and predicts a model output
 - Training: The process of determining ideal parameters for the model (weights and biases)
 - Unsupervised learning: A model that takes a dataset with no correct answers labeled. Model clusters meaningful patterns. 
+- Example: Values that make up a dataset
+- Feature: The input variables of an example
+- Inference: Deployment of an evaluated model
+- Label: The output/result of the features of an example
+- Loss: The difference between the predicted value vs the actual value
