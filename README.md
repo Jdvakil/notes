@@ -22,5 +22,19 @@
 + Supervised learning 
     - Training a model from features and their corresponding labels. Supervised ML is analogous to learning a subject by studying a set of questions and their answers. Master mapping between Q/A and provide answers to never-before-seen questions on the same topic. 
     - Models make prediction after going thru alot of data with correct answers. Then discover the connections b/w the elements in the data that produce the same answer. 
+    - Two of the most common use cases of supervised learning are:
+        #### Regression
+        - A regression model predicts a numeric value. A model that takes an input and predicts a numerical output.
+            - Input: information about a house such as square footage, zip code, num of bedrooms, lot size, mortage interest rate...etc.
+            - Output: The price of a house.
+        #### Classification 
+        - A classification model predicts the probability of something belonging to a category. Example: food classification, input a picture of food item and get the category it belongs to. 
+            ###### Binary classification
+            - Outputs a value from a class that contains a binary output (True or False)
+            ##### Multiclass classification =
+            - Outputs a value from a class that contains multiple outputs (Blue, Red, Yellow, or Green)       
+
 + Unsupervised learning 
+    -
+
 + Reinforcement learning
