@@ -1,4 +1,11 @@
 # Keywords
 - Classification model: A model that predicts members of a class (binary or multiclass)
 - Clustering: Grouping related examples (used during unsupervised learning)
-- 
+- Model: A mathematical construct that takes an input, processes, and returns an output
+- Policy: An agent's probabilistic mapping from states to actions
+- Regression model: A model that generates a numerical ouput
+- Reinforcement learning: A model that works on reward and penalties for actions performed. Goal is to learn an optimal policy that maximizes reward
+- Reward: A mathematical unit given to RL based models for actions performed
+- Supervised learning: A model that takes a dataset with correct answers as an input and predicts a model output
+- Training: The process of determining ideal parameters for the model (weights and biases)
+- Unsupervised learning: A model that takes a dataset with no correct answers labeled. Model clusters meaningful patterns. 
