@@ -37,4 +37,6 @@
 + Unsupervised learning 
     - Unsupervised learning models make predictions from datasets with no correct answers. The goal of the models is to identify and predict meaningful patterns.
     - Unsupervised learning models employ a technique called clustering. 
+
 + Reinforcement learning
+    - Reinforcement learning models make predictions by getting rewards or penalties based on actions performed. The models generate a policy that defines the best strategy to get the most rewards. 
