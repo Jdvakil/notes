@@ -40,3 +40,5 @@
 
 + Reinforcement learning
     - Reinforcement learning models make predictions by getting rewards or penalties based on actions performed. The models generate a policy that defines the best strategy to get the most rewards. 
+
+\fancyfoot[CO,CE]{Notes of material taught by Google: https://developers.google.com/machine-learning/intro-to-ml}
