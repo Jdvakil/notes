@@ -31,7 +31,7 @@
         - A classification model predicts the probability of something belonging to a category. Example: food classification, input a picture of food item and get the category it belongs to. 
             ###### Binary classification
             - Outputs a value from a class that contains a binary output (True or False)
-            ##### Multiclass classification =
+            ###### Multiclass classification 
             - Outputs a value from a class that contains multiple outputs (Blue, Red, Yellow, or Green)       
 
 + Unsupervised learning 
