@@ -1,8 +1,20 @@
 # Framing 
 How to frame a problem as a ML problem.
-- Label: a variable we are predicting (`y`)
-- Feature: Input variables that describe the data (x1...xn)
+- Label: a variable we are predicting (`y`) -- a simple linear regression. 
+    - Could be the future price of wheat, image classification, etc...
+- Feature: Input variables that describe the data (x<sub>1</sub>...x<sub>n</sub>)
+    - Could include words in an email, senders address, time, etc...
 - Example: Particular example of data `x`
 - Labeled example: Used to train a model (`x`, `y`)
+    - Includes both features and labels 
+    - Needs explicit marking for the prediction
+        - Spam detector: needs marking for spam or not spam
 - Unlabled example: Used for making predictions on new data
-- Model: Maps example to predicted labels 
+    - Has features but no labels. 
+- Model: Maps example to predicted labels. Defines the relationship between features and label. 
+    - **Training**: Creating or learning the model, you show the model labeled examples and enable the model to gradually learn the relationships between features and label. 
+    - **Inference**: Applying the trained model to unlabeled examples. You use the trained model to make useful predictions. 
+- Regression vs Classification
+    - **Regression**: Predicts numerical value.
+    - **Classification**: Predicts discrete value.
+    
