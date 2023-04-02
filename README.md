@@ -55,7 +55,7 @@
         - The square of difference between label and prediction. 
     - #### Mean squared loss (MSE)
         - The average squared loss per example over the whole dataset. 
-        - `MSE = \frac{1}{N} SUM(y-prediction(x)^2)`
+        - `MSE = $\frac{1}{N}$ SUM(y-prediction(x)^2)`
         
 ```
 Notes of material taught by Google: https://developers.google.com/machine-learning/intro-to-ml
