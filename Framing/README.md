@@ -17,4 +17,14 @@ How to frame a problem as a ML problem.
 - Regression vs Classification
     - **Regression**: Predicts numerical value.
     - **Classification**: Predicts discrete value.
-    
+- Linear regression: A method for finding the straight line or hyperplane that best fits a set of points.
+    - Linear relationship: `y = mx + b`
+        - `y`: value to be predicted
+        - `m`: slope of a line
+        - `x`: value of input
+        - `b`: y-intercept
+    - `y' = b + wx`
+        - `y'`: predicted label
+        - `w`: weight vectors
+        - `b`: bias
+- Loss: L<sub>2</sub> or squared error takes the square of prediction and actual delta. 

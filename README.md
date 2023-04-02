@@ -41,6 +41,22 @@
 + Reinforcement learning
     - Reinforcement learning models make predictions by getting rewards or penalties based on actions performed. The models generate a policy that defines the best strategy to get the most rewards. 
 
+### Training and loss
+
++ Training
+    - A model means learning/determining the good values for all weights and the bias from labeled examples. 
+    - A ML model algorithm builds a model by examining many examples and attempting to find a model minimized loss => **empirical risk minimization**
+    
++ Loss
+    - The penalty for bad prediction. It is a number indicating how bad the model's prediction was on a single example. 
+    - If the model's prediction is perfect, the loss is zero, else the loss is greater. 
+    - #### Squared loss
+        - Squared loss or L<sub>2</sub> loss
+        - The square of difference between label and prediction. 
+    - #### Mean squared loss (MSE)
+        - The average squared loss per example over the whole dataset. 
+        - `MSE = \frac{1}{N} SUM(y-prediction(x)^2)`
+        
 ```
 Notes of material taught by Google: https://developers.google.com/machine-learning/intro-to-ml
 ```
