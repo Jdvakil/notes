@@ -57,9 +57,10 @@
         - The average squared loss per example over the whole dataset. 
         - `MSE = 1/N * SUM(y-prediction(x)^2)`
 
-### Reducing loss 
-    - Hyperparamters: config settings used to tune how a model is trained.
-    - Derivative of `(y-y')^2` with respect to weights and biases tells us how loss changes for a given example.
+### Reducing loss 0
+
++ Hyperparamters: config settings used to tune how a model is trained.
++ Derivative of `(y-y')^2` with respect to weights and biases tells us how loss changes for a given example.
         
 ```
 Notes of material taught by Google: https://developers.google.com/machine-learning/intro-to-ml
