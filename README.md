@@ -57,11 +57,16 @@
         - The average squared loss per example over the whole dataset. 
         - `MSE = 1/N * SUM(y-prediction(x)^2)`
 
-### Reducing loss 0
+### Reducing loss
 
 + Hyperparamters: config settings used to tune how a model is trained.
 + Derivative of `(y-y')^2` with respect to weights and biases tells us how loss changes for a given example.
-        
++ Gradient descent: Calculates the gradient of the loss curve at the starting point. A vector of partial derivatives with repect to weights. 
+    - Check [Gradient](https://github.com/Jdvakil/ml/tree/main/Prerequisites/math#gradient) for more details. 
++ Stochastic gradient descent
+    - Batch: Total number of examples you use to calculate the gradient in a single iteration. 
+    - A large batchsize = longer train times. 
+    - 
 ```
 Notes of material taught by Google: https://developers.google.com/machine-learning/intro-to-ml
 ```
