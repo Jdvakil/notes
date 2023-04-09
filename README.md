@@ -66,7 +66,21 @@
 + Stochastic gradient descent
     - Batch: Total number of examples you use to calculate the gradient in a single iteration. 
     - A large batchsize = longer train times. 
-    - 
+
+### Intro to TensorFlow
++ Open source platform for machine learning -- manage all aspects of a ML system. 
++ Tensorflow APIs are arranged hierarchically -> high level APIs are built on low level APIs. 
++ Researchers use low level APIs to create and explore new ML algorithms. 
+
+-> tf.keras -- High level + Object-oriented API
+
+-> tf.layers, tf.losses,... -- Reusable libraries for common model components
+
+-> low-level TF API -- extensive control 
+
+-> CPU, GPU, TPU -- platforms
+
+
 ```
 Notes of material taught by Google: https://developers.google.com/machine-learning/intro-to-ml
 ```
